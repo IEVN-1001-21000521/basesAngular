@@ -1,19 +1,20 @@
-<!-- <div>
-  <h1>Hola Mundo!!!</h1>
+<!--<div>
+  <h1>hola mundo!!!</h1>
 </div>
+
 <div>
   {{title}}
-  La suma de 2 + 2 es igual: {{2+2}}
+  2 mas 2 {{2+2}}
+
+<br>
+  el doble de el numero 3 es  {{duplicarNumero(3)}}
 </div>
-<div>
-  El doble del numero 3 es {{duplicarNumero(3)}}
-</div>
+
 <div>
   <h2>Matricula: {{alumno.matricula}}</h2>
-  <h2>Nombre: {{alumno.nombre}}</h2>
-  <h2>Fecha: {{alumno.fechaInscrito | date:"dd-MM-yy"}}</h2>
-  <h2>Pago: {{alumno.Pago | currency}} </h2>
-</div> -->
-<div>
-  <app-list></app-list>
+  <h2>Nombre: {{alumno.nombre | uppercase}}</h2>
+  <h2>fecha inscripcion: {{alumno.fechaInscrito | date: "dd-MM-yy"}}</h2>
+  <h2>Pago:{{alumno.pago|currency}}</h2>
 </div>
+<hr>-->
+<app-product-list></app-product-list>

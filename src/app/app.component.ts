@@ -6,15 +6,16 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'basesAagular';
+  title = 'basesAngular'; //comentarios
+
   duplicarNumero(x:number):number{
     return x*2;
   }
 
   alumno={
-    matricula:21000521,
-    nombre:'Aguiñon',
+    matricula:1234,
+    nombre:'Juan',
     fechaInscrito: new Date(),
-    Pago: 2220,
+    pago:2220
   };
 }
