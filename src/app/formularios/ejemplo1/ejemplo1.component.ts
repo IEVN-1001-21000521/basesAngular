@@ -19,6 +19,6 @@ ngOnInit(): void {
 sumarNumeros():void{
   const numero1=this.formulario.get('numero1')?.value;
   const numero2=this.formulario.get('numero2')?.value;
-  this.resultado=numero1+numero2;
+  this.resultado=numero1+numero2
 }
 }
